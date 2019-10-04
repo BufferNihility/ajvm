@@ -50,7 +50,7 @@
  * glibc |...|<--| rbp->unkonwn
  *
  */
-
+#define __USE_GNU
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -63,7 +63,6 @@
 #include <sys/mman.h>
 #include <execinfo.h>
 
-#define __USE_GNU
 #include <ucontext.h>
 
 #include "trace.h"
