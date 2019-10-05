@@ -191,7 +191,7 @@ int main(int argc, char **argv)
 			break;
 		case 'v':
 			jvm_banner();
-			return ;
+			return 0;
 		default:
 			printf("Bad option, see -v for help.\n");
 			jvm_usage(argv[0]);
